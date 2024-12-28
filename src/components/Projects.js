@@ -9,21 +9,21 @@ export default function Projects()
                 image: websiteImg1,
                 description: 'I created website using Bootstrap Framework, HTML & CSS.',
                 link:'https://tamilarasi-smvcoder.github.io/SMV_Web/',
-                alt:'Project Image'
+                alt:'Project_Image'
 
             },
             {
                 image: websiteImg2,
                 description: 'I created website using Node JS, React JS and Three JS.',
                 link:'https://smv-karpom-karpipom.netlify.app/',
-                alt:'Project Image'
+                alt:'Project_Image'
 
             },
             {
                 image: websiteImg3,
                 description: 'ID Card Maker build using HTML, CSS and Bootstrap Framework.',
                 link:'https://tamilarasi-smvcoder.github.io/BootstrapIDcardMaker/web/index.html',
-                alt:'Project Image'
+                alt:'Project_Image'
 
             }
         ]
@@ -40,11 +40,11 @@ export default function Projects()
                 {config.projects.map((project)=>(
 
                     <div className='relative'>
-                        <img className='h-[250px] w-[500px]' src={project.image}/>
+                        <img className='h-[250px] w-[500px]' src={project.image} alt={project.alt}/>
                         <div className='project-desc'>
                             <p className='text-center px-5 py-5 text-deepgreen'>{project.description}</p>
                             <div className='flex justify-center'>
-                                <a className='btn' target='_blank' href={project.link}>View</a>
+                                <a className='btn' target='_blank' rel="noreferrer" href={project.link}>View</a>
                             </div>
                         </div>
                     </div>
