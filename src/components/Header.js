@@ -4,7 +4,7 @@ import { useState } from 'react'
 export default function Header() {
     const [toggleMenu, setToggleMenu] = useState(false);
     return <header className="flex justify-between px-5 bg-primary sticky top-0 z-50" >
-        <a className="font-bold text-primary text-2xl" href="#">Tamilarasi S</a>
+        <a className="font-bold text-primary text-2xl" href="/">Tamilarasi S</a>
         <nav className="hidden md:block">
         <ul className="flex text-white font-bold h-full">
             <li className="hover:bg-[#E3F0AF] hover:text-deepgreen px-4 rounded-t-lg transition-all py-2"><a href="#hero">Home</a></li>

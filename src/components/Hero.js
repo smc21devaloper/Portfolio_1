@@ -18,6 +18,6 @@ export default function Hero(){
         </div>
         </div>
         
-        <img className='md:w-1/3' src={HeroImg}/>
+        <img className='md:w-1/3' src={HeroImg} alt="Hero Image"/>
     </section>
 }

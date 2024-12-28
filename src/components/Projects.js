@@ -8,19 +8,22 @@ export default function Projects()
             {
                 image: websiteImg1,
                 description: 'I created website using Bootstrap Framework, HTML & CSS.',
-                link:'https://tamilarasi-smvcoder.github.io/SMV_Web/'
+                link:'https://tamilarasi-smvcoder.github.io/SMV_Web/',
+                alt:'Project Image'
 
             },
             {
                 image: websiteImg2,
                 description: 'I created website using Node JS, React JS and Three JS.',
-                link:'https://smv-karpom-karpipom.netlify.app/'
+                link:'https://smv-karpom-karpipom.netlify.app/',
+                alt:'Project Image'
 
             },
             {
                 image: websiteImg3,
                 description: 'ID Card Maker build using HTML, CSS and Bootstrap Framework.',
-                link:'https://tamilarasi-smvcoder.github.io/BootstrapIDcardMaker/web/index.html'
+                link:'https://tamilarasi-smvcoder.github.io/BootstrapIDcardMaker/web/index.html',
+                alt:'Project Image'
 
             }
         ]
