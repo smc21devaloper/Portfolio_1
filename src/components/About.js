@@ -2,7 +2,7 @@ import AboutImg from '../assets/program.png';
 
 export default function About() {
     const config = {
-        line1 : 'Hi, My name is Tamilarasi, I am a Computer Science Engineer. I am also passionate we developer built beautiful website with React.js and Tailwind CSS.',
+        line1 : 'Hi, My name is Tamilarasi, I am a Computer Science Engineer. I am also passionate web developer built beautiful website with React.js and Tailwind CSS.',
         line2 : 'I am proficient in Frontend skills like React.js, Tailwind CSS, CSS3, Bootstrap and many more.',
         line3 : 'In backend I know Node.js, Java, Python, C, C++, SQL.',
     }
