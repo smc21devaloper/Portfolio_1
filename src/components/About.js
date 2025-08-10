@@ -19,7 +19,7 @@ export default function About() {
             <p className='mb-5'>{config.line3}</p>
             <a 
   href="#journey" 
-  className="btn bg-sea-green hover:bg-deepgreen text-white text-sm md:text-base py-1.5 px-3 md:py-2 md:px-4 rounded w-fit transition"
+  className="btn bg-sea-green hover:bg-deepgreen text-white text-sm md:text-base py-1.5 px-3 md:py-2 md:px-4 mb-2 rounded w-fit transition"
 >
   My Journey
 </a>
