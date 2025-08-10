@@ -36,3 +36,14 @@ header ul li{
 html{
   scroll-behavior: smooth;
 }
+/* Custom scrollbar for WebKit browsers */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #E3F0AF;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}

@@ -3,7 +3,7 @@ import { AiOutlineGithub, AiOutlineYoutube, AiOutlineLinkedin } from "react-icon
 
 export default function Hero(){
     const config={
-        subtitle:'Im a Full-stack Developer.'
+        subtitle:'Im a Computer Science Engineer.'
     }
     return<section className='flex flex-col md:flex-row px-5 py-32 bg-secondary justify-center' id="hero">
         <div className='md:w-1/2'>
