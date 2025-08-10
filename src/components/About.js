@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import AboutImg from '../assets/program.png';
 
 export default function About() {
@@ -5,6 +6,7 @@ export default function About() {
         line1 : 'Hi, My name is Tamilarasi, I am a Computer Science Engineer. I am also passionate we developer built beautiful website with React.js and Tailwind CSS.',
         line2 : 'I am proficient in Frontend skills like React.js, Tailwind CSS, CSS3, Bootstrap and many more.',
         line3 : 'In backend I know Node.js, Java, Python, C, C++, SQL.',
+        link : '/journey'
     }
   
     return <section className="flex flex-col md:flex-row bg-custom-cream px-5" id="about">
@@ -17,14 +19,13 @@ export default function About() {
             <p className='mb-5'>{config.line1}</p>
             <p className='mb-5'>{config.line2}</p>
             <p className='mb-5'>{config.line3}</p>
-            <a 
-  href="/journey" 
-  target="_blank" 
-  rel="noopener noreferrer"
+            <Link
+  to={config.link}
   className="btn bg-sea-green hover:bg-deepgreen text-white text-sm md:text-base py-1.5 px-3 md:py-2 md:px-4 rounded w-fit transition"
 >
   My Journey
-</a>
+</Link>
+
         </div>
         </div>
     </section>
