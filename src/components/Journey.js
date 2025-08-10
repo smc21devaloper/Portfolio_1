@@ -2,7 +2,7 @@ import JourneyImg from '../assets/journey.png';
 
 export default function Journey() {
   return (
-    <section className="relative w-full h-screen">
+    <section className="relative w-full h-screen" id="journey">
       {/* Background Image */}
       <img 
         src={JourneyImg}
@@ -37,13 +37,13 @@ down.
 resources, we were often left to study on our own. There were days without formal classes or
 experienced lecturers. But I refused to give up.
           </p>
-          <p className='mb-6'>
+          <p className='indent-8 mb-6'>
             In 2020, during my second semester, the COVID-19 pandemic hit. Colleges shut down, and
 learning shifted online. During this time, I developed a passion for learning new things. My principal,
 Dr. Radhakrishnan, recognized this and gave me an opportunity to work with Vi Microsystems, led by
 our college chairman Dr. R. Vijayarajeshwaran.
           </p>
-          <p className=' mb-6'>
+          <p className='indent-8 mb-6'>
             This was my entry into the world of IoT. I learned to build IoT projects and gained hands-on
 experience in embedded programming. It was here that I saw how technology could solve real-world
 problems.
@@ -55,7 +55,7 @@ problems.
 students basic computer skills, programming fundamentals, and Tamil &amp; English typewriting. I also began helping people in surrounding villages, educating them about government schemes and
 assisting them with applications.
           </p>
-        <p className="mb-6">
+        <p className="indent-8 mb-6">
             This was a turning point in my life. Until then, I was a very introverted person. Teaching and
 community service helped me grow socially and emotionally. I learned how to connect with people
 and understand their needs.
