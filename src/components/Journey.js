@@ -21,17 +21,18 @@ export default function Journey() {
           {/* Journey Content */}
           <h2 className="text-2xl md:text-3xl font-bold mb-4 text-primary">Transforming Limitations into Learning Opportunities</h2>
           <p className="indent-8 mb-6 text-1xl md:text-2xl">
-            I was born and raised in a simple background, studying from <b>1st to 12th standard in a
-Government School, entirely in Tamil medium.</b> After completing school, I joined <b>Vi Institute of
-Technology</b>, an Anna University affiliated engineering college located, just <b>7 km from my home.</b>
-It was 2019, engineering was losing popularity. Many people around me believed that
-“engineering has no future” and “you won’t get a job.” Out of the entire 2019 batch in my school, I
-was the <b>only student who chose engineering.</b> Even in my college, less than 30 students joined
-across all departments, and I eventually became part of the <b>last batch before the college closed down.</b>
+            I grew up in a small village and studied from 1st to 12th standard in a Government School, entirely in
+Tamil medium. After completing school, I joined Vi Institute of Technology, an Anna University
+affiliated engineering college located, just 7 km from my home.
+<br />
+It was 2019, engineering was losing popularity. Many people around me believed that “engineering
+has no future” and “you won’t get a job.” Out of the entire 2019 batch in my school, I was the only
+student who chose engineering. Even in my college, less than 30 students joined across all
+departments, and I eventually became part of the last batch before the college closed down.
 
           </p>
 
-          <h3 className="text-xl font-semibold mb-2  text-primary">Learning Without a Classroom</h3>
+          <h3 className="text-2xl md:text-3xl font-bold mb-4 text-primary">Learning Without a Classroom</h3>
           <p className="indent-8 mb-6 text-1xl md:text-2xl">
             The journey was far from easy. As the college faced challenges, lack of faculty, limited
 resources, we were often left to study on our own. There were days without formal classes or
@@ -49,7 +50,7 @@ experience in <b>embedded programming</b>. It was here that I saw how technology
 problems.
           </p>
 
-          <h3 className="text-xl font-semibold mb-2  text-primary">Giving Back to My Community</h3>
+          <h3 className="text-2xl md:text-3xl font-bold mb-4 text-primary">Giving Back to My Community</h3>
           <p className="indent-8 mb-6 text-1xl md:text-2xl">
             With my father’s support, I started a small computer coaching centre in my village. I taught
 students <b>basic computer skills, programming fundamentals, and Tamil &amp; English typewriting.</b> I also began helping people in surrounding villages, educating them about government schemes and
@@ -60,7 +61,45 @@ assisting them with applications.
 community service helped me grow socially and emotionally. I learned how to connect with people
 and understand their needs.
           </p>
-          <h3 className="text-xl font-semibold mb-2  text-primary">Lessons That Shaped Me</h3>
+
+                    <h3 className="text-2xl md:text-3xl font-bold mb-4 text-primary">My Career at SignaTech</h3>
+          <p className="indent-8 mb-6 text-1xl md:text-2xl">
+            I started my career at <b>SignaTech</b> as a Trainee, where I was introduced to the fundamentals of IT
+infrastructure and daily operations. After my trainee period, I moved into the role of <b>Associate
+System Engineer</b>. Our team’s core responsibility has been to ensure smooth IT operations by
+monitoring client servers, networks, and security, as well as supporting end users with their day-to-
+day technical requirements.</p>
+
+<p className="mb-6 text-1xl md:text-2xl">In the beginning, I worked mostly on infrastructure monitoring and patch management. Working in
+enterprise infrastructure was a completely new experience for me. With my team lead’s guidance, I
+began strengthening my technical foundation and gradually built expertise in managing and
+supporting enterprise IT environments. Over time, I also gained exposure to addressing end-user
+challenges and technical escalations, which enhanced both my problem-solving and troubleshooting
+skills.</p>
+  <p className="mb-6 text-1xl md:text-2xl">
+    Along the way, I also handled internal user tickets and onboarding/offboarding processes. As part of
+my <b>asset management</b> responsibilities, I made sure to maintain an up-to-date asset inventory. I
+never closed my day without ensuring accuracy. These efforts were recognized when I was honored
+with the <b>SPOT Recognition Award for February 2025</b>, which acknowledged my dedication and
+contributions to the team. This recognition reinforced my belief in delivering consistent results and
+continuously pushing myself to explore new areas, while always aiming to give my best in every task.
+  </p>
+  <p className="mb-6 text-1xl md:text-2xl">
+    What I value most is the culture at SignaTech. Programs like the “Theme of the Month” helped me
+overcome stage fear and improve my confidence, while the company’s encouragement constantly
+motivated me to keep learning and innovating.
+  </p>
+  <p className="mb-6 text-1xl md:text-2xl">
+    Another highlight of my journey has been that SignaTech recognizes individual talents. Since I have
+an interest in coding, I was given opportunities to contribute beyond my core role, such as designing
+a webpage for our site and even working on a project to consolidate all company products into a
+single website for easier client access during reviews. Although the project is still in progress, I
+continue to contribute to it whenever time permits, as I see it as a valuable initiative that adds real
+impact. On the infrastructure side, I was introduced to automation practices and modern
+infrastructure tools, which I am now learning to further enhance my skills.
+  </p>
+
+          <h3 className="text-2xl md:text-3xl font-bold mb-4 text-primary">Lessons That Shaped Me</h3>
           <p className="mb-4 text-1xl md:text-2xl">Through this journey, I discovered three powerful truths:</p>
           <ul className="list-disc list-inside mb-6 ml-4 text-1xl md:text-2xl">
             <li><b>Opportunities may be few, but determination can multiply them.</b></li>
@@ -74,7 +113,8 @@ Tamil-medium government school to a corporate office is proof <b>that background
 future, consistency and willpower do.</b>
           </p>
 
-          <h3 className="text-xl font-semibold mb-2  text-primary">A Philosophy That Guides Me</h3>
+
+          <h3 className="text-2xl md:text-3xl font-bold mb-4 text-primary">A Philosophy That Guides Me</h3>
           <p className="mb-6 text-1xl md:text-2xl">
             My father once shared a lesson that shaped how I see life. To succeed in any skill, five elements play
             a major role:
@@ -95,22 +135,29 @@ future, consistency and willpower do.</b>
             <li><strong>For what?</strong> – Know the purpose or problem it solves</li>
             <li><strong>How?</strong> – Learn the mechanism or process behind it</li>
           </ul>
-          <p className="mb-6">
+          <p className="mb-6 text-1xl md:text-2xl">
             This kind of root thinking builds not just knowledge, but confidence to take the next step.
           </p>
 
-          <h3 className="text-xl font-semibold mb-2  text-primary">My Skills</h3>
+          <h3 className="text-2xl md:text-3xl font-bold mb-4 text-primary">My Skills</h3>
           <ul className="list-disc list-inside mb-6 ml-4 text-1xl md:text-2xl">
             <li>Basic computer hardware & software, IoT</li>
             <li>Tamil Nadu government procedures (Panchayat, Revenue, Metro Corporation, Labour Welfare, Aadhar, etc.)</li>
           </ul>
 
-          <h3 className="text-xl font-semibold mb-2  text-primary">My Dream for the Future</h3>
+          <h3 className="text-2xl md:text-3xl font-bold mb-4 text-primary">Looking Ahead</h3>
           <p className='indent-8 text-1xl md:text-2xl'>
-            My dream is to build a Hardware and Software Research and Development Institute — not
-only for personal income, but to empower the next generation. I want to create a space where
-young minds can explore, innovate, and learn with the right guidance and resources. A place where
-they can shape a better future for all of us.
+            Overall, I see myself as someone who is always ready to <b>explore new technologies and apply them in
+practical scenarios</b>. Looking back, I feel truly grateful for the supportive colleagues, inspiring leaders,
+and opportunities for growth that have shaped my journey from a trainee to an associate system
+engineer. Moving forward, I aspire to deepen my expertise in cloud platforms, automation, and IT
+service management, while continuing to contribute to the success of SignaTech.
+          </p><br></br>
+          <p className='text-1xl md:text-2xl'>
+            My dream is to build a Hardware and Software Research and Development Institute — not only for
+personal income, but to empower the next generation. I want to create a space where young minds
+can explore, innovate, and learn with the right guidance and resources. A place where they can
+shape a better future for all of us.
           </p>
         </div>
       </div>
